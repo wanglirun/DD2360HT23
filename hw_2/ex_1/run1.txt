@@ -1,0 +1,36 @@
+run1：
+length of input:131070
+data copy from host to device:175.68us       
+the CUDA kernel:10.336us
+data copy from device to host:81.630us
+                   
+
+run2:
+length of input:262140
+data copy from host to device: 676.44us       
+the CUDA kernel:19.776us  
+data copy from device to host:165.02us
+
+run3:
+length of input:393210
+data copy from host to device:1.1704ms      
+the CUDA kernel:31.071us
+data copy from device to host:1.0043ms  
+
+run4:
+length of input:524280
+data copy from host to device:1.7824ms      
+the CUDA kernel:43.135us 
+data copy from device to host:1.5721ms 
+
+run5:
+length of input:655350
+data copy from host to device:2.8825ms    
+the CUDA kernel:55.263us
+data copy from device to host:2.1709ms
+
+run6:
+length of input:786420
+data copy from host to device:2.9442ms     
+the CUDA kernel:66.814us
+data copy from device to host:2.5012ms

@@ -1,0 +1,25 @@
+run1：
+size:511x1023x4094
+data copy from host to device:4.2020ms
+the CUDA kernel:12.596ms  
+data copy from device to host:4.7385ms   
+
+run2：
+size:1022x2046x8188
+data copy from host to device:16.113ms
+the CUDA kernel:103.91ms  
+data copy from device to host:21.883ms         
+
+run3：
+size:2046x4092x16376
+data copy from host to device:87.672ms  
+the CUDA kernel:523.96ms  
+data copy from device to host:65.325ms    
+
+run4：
+size:4092x8184x32752
+data copy from host to device:260.68ms
+the CUDA kernel:3.86640s
+data copy from device to host:392.31ms 
+
+
